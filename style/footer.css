@@ -1,0 +1,118 @@
+
+.footerContent{
+    /* max-width: 1400px; */
+    padding: 0 4%;
+    margin: auto;
+    background: #BCE93C;
+    margin-top: 150px;
+    box-sizing: border-box;
+}
+
+.row-footer{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+    margin-top: 15px;
+
+}
+
+.footer-col h4{
+    font-size: 24px;
+    color: black;
+    margin-bottom: 20px;
+    font-weight: bold;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.footer-col ul{
+list-style: none;
+}
+
+.footer-col ul li{
+   margin: 20px 0; 
+}
+
+.footer-col  ul li a{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: black;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+
+.footer-col ul li a:hover{
+    padding-left: 10px;
+}
+
+.medias-sociais{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-col .medias-sociais a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    border-radius: 50%;
+    color: black;
+    border: 1px solid black;
+    transition:  all 0.2s ease;
+
+}
+
+.footer-col .medias-sociais a i{
+    font-size: 20px;
+}
+
+.footer-col .medias-sociais a:hover{
+    color: blue;
+    background: white;
+}
+
+.footer-col .form-sub input{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid black;
+    background: #BCE93C;
+}
+
+.footer-col .form-sub input::placeholder{
+    color: #717B8B;
+}
+
+.footer-col .form-sub button{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 17px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #717B8B;
+    border-radius: 3px;
+    font-weight: bold;
+    box-shadow: 1px 2px 3px;
+    background-color: rgb(0, 255, 106);
+}
+
+.footer-col button:hover{
+    background: rgb(210, 250, 227);
+    transition: all 0.5s ease;
+    color: blue;
+}

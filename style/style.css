@@ -1,0 +1,312 @@
+.content {
+    background: #BCE93C;
+}
+
+.left {
+    width: 1000px;
+    padding: 90px;
+    padding-top: 15%;
+    padding-left: 15%;
+    font-size: 20px;
+}
+
+.left h4 {
+    color: #717B8B;
+    padding-top: 5%;
+}
+
+.formulario {
+    position: absolute;
+    padding: 40px 50px;
+    text-align: left;
+    justify-content: center;
+    border-radius: 2%;
+    right: 15%;
+    bottom: 30%;
+    /* height: 50%; */
+    width: 26%;
+    background: #fff;
+    box-shadow: 3px 3px 10px #717B8B;
+}
+
+.formulario h3 {
+    font-size: 20px;
+    color: #717B8B;
+    width: 100%;
+}
+
+.formulario h2 {
+    font-size: 20px;
+    padding-top: 5%;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.inputbox {
+    position: relative;
+    margin-bottom: 50px
+}
+
+.inputbox input {
+    font-size: 15px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    font-weight: 350;
+    padding: 4px 3px;
+    outline: none;
+    width: 350px;
+    border: none;
+    box-shadow: 0px 0px 2px;
+    justify-content: left;
+    align-items: center;
+    line-height: 14.63px;
+
+}
+
+.inputbox input ::placeholder {
+    padding-top: 250px;
+}
+
+.inputbox label {
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+
+.inputbox button {
+    background: #71DC3F;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    position: absolute;
+    width: 314px;
+    height: 44px;
+    margin-top: 25px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.inputbox label {
+    font-weight: bold;
+}
+
+.alTexts{
+    text-align: left
+}
+
+.alTexts h3{
+    width: 100%;
+}
+
+.alTexts h5{
+    margin-bottom: -100px;
+    padding: 30px;
+    margin-left: 80px;
+    color: #717B8B;
+    font-size: 20px;
+}
+
+
+.box1,.box2,.box3,.box4,.box5,.box6 {
+    width: 400px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin-bottom: 2%;
+    /* padding: 35px 40px; */
+    box-shadow: 3px 3px 10px #71DC3F;
+    border-radius: 10px;
+}
+
+.linhaUmBox {
+    display: flex;
+    width: 100%;
+    margin-left: 10%;
+    height: 500px;
+    gap: 5%;
+}
+
+.linhaUmBox p,li,lu {
+    display: inline-block;
+    max-width: 360px;
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-bottom: 3%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-align: justify;
+}
+
+.imgbox1 {
+    /* display: block; */
+    position: relative;
+    width: 55px;
+    height: 55px;
+    margin-bottom: 7%;
+    top: 3%;
+    left: 40px;
+    text-align: center;
+}
+
+.imgbox2 {
+    position: relative;
+    width: 55px;
+    height: 55px;
+    margin-bottom: 7%;
+    top: 3%;
+    left: 40px;
+}
+
+
+.linhaUmBox h4 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.linhaDoisBox {
+    display: flex;
+    width: 100%;
+    margin-left: 10%;
+    height: 300px;
+    gap: 5%;
+    text-align: center;
+    /* text-indent: 25px; */
+}
+
+.linhaDoisBox p,li,lu {
+    max-width: 360px;
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-bottom: 3%;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.integracoes h3{
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.integracoes {
+    text-align: center;
+}
+
+.contentGeral{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content2 {
+    background-color: #F2F2F2;
+}
+
+.contentRight{
+    margin-top: 150px;
+    width: 50%;
+}
+
+.content2Left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 550px;
+    text-align: left;
+    gap: 15px;
+}
+
+.content2Left > img{
+    margin-left: -20px;
+    /* margin-top: -15px; */
+}
+
+.content2Left > span{
+    margin-top: -15px;
+}
+
+.divContent1{
+    /* display: flex; */
+    float: left;
+    height: 200px;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.imgNike{
+    width: 20px;
+    height: 20px;
+}
+
+.content left,h3 {
+    padding: 5%;
+    font-size: 25px;
+    width: 33%;
+}
+
+
+.logos {
+    margin-left: 25%;
+}
+
+.logos h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-left: 18%;
+}
+
+.depoimentos {
+    width: 100%;
+    margin-top: 10%;
+}
+
+.depoimentos h1 {
+    margin-top: 5%;
+    margin-bottom: 5rem;
+
+}
+
+.star {
+    width: 20px;
+    margin-bottom: 30px;
+}
+
+.cards .user {
+    width: 100px;
+    border-radius: 50px;
+    height: 50%;
+    margin-bottom: 15px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px 40px;
+    box-shadow: 3px 3px 10px #717B8B;
+}
+
+.card p {
+    margin-top: 20px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 980px;
+    margin: 0 auto;
+    grid-gap: 60px;
+}
+
+
+
